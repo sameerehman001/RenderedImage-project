@@ -1,0 +1,79 @@
+.outerContainer {
+  position: relative;
+  background-color: #cccccc;
+  /* height: 100vh; */
+}
+.contentWrap {
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.uperTextContainer {
+  width: 35%;
+}
+.ourTeaWrap {
+  padding: 70px 0;
+}
+.upperText {
+  margin: 20px 0 0 0;
+  font-size: 50px;
+  font-family: ftnk;
+  font-weight: bold;
+  line-height: 55px;
+}
+.lowerText {
+  margin-bottom: 0;
+  margin-top: 50px;
+  font-size: 50px;
+  font-family: ftnk;
+  font-weight: bold;
+  line-height: 50px;
+}
+.ourTeamText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0 70px 100px;
+}
+.ourTeamTextStyling {
+  font-size: 50px !important;
+  font-weight: bold !important;
+}
+@media screen and (width < 1200px) {
+  .upperText {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .lowerText {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+@media screen and (width < 1000px) {
+  .upperText {
+    font-size: 30px;
+  }
+  .lowerText {
+    font-size: 30px;
+  }
+}
+@media screen and (width < 800px) {
+  .uperTextContainer {
+    width: 50%;
+  }
+}
+
+@media screen and (width < 800px) {
+  .uperTextContainer {
+    width: 50%;
+  }
+}
+
+@media screen and (width < 500px) {
+  .uperTextContainer {
+    width: 80%;
+  }
+}

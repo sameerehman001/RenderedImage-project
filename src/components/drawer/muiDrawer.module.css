@@ -1,0 +1,56 @@
+.drawerHeading {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  padding: 25px 20px 0px 20px;
+  /* align-items: center; */
+}
+
+.FilterText {
+  color: rgba(0, 0, 0, 0.85);
+  font-family: Outfit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 120% */
+}
+.customPaper {
+  max-width: 80%;
+}
+.menuItemsContainer {
+  display: flex;
+  flex-direction: column;
+}
+.Menutext {
+  padding: 10px 0;
+  color: black;
+  font-size: 18px !important;
+}
+@media screen and (max-width: 900px) {
+  .customPaper {
+    max-width: 40%;
+    min-width: 40%;
+    /* margin-top: 90px; */
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .customPaper {
+    max-width: 40%;
+    min-width: 40%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .customPaper {
+    max-width: 60%;
+    min-width: 60%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .customPaper {
+    max-width: 80%;
+    min-width: 80%;
+  }
+}

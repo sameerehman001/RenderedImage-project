@@ -1,0 +1,23 @@
+.BlackButton {
+  padding: 0 10px;
+  border: 1px solid black;
+  width: fit-content;
+  border-radius: 12px;
+}
+.BlackButton :nth-child(1) {
+  font-size: 18px;
+  font-family: ftnk;
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+@media screen and (max-width: 800px) {
+  .BlackButton :nth-child(1) {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .BlackButton :nth-child(1) {
+    font-size: 12px;
+  }
+}

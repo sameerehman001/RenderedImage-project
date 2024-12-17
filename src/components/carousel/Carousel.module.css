@@ -1,0 +1,670 @@
+.jobsHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 8rem;
+  margin-bottom: 6rem;
+}
+.jobsHead {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 40px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  line-height: 48px;
+  word-wrap: break-word;
+  margin: 0%;
+  text-align: center;
+}
+.jobsHeadPosition {
+  color: #fbb03b;
+}
+.jobsPara {
+  color: #636363;
+  font-size: 20px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  word-wrap: break-word;
+  margin-bottom: 0%;
+}
+.workingRightContainer {
+  display: flex;
+  flex-direction: column;
+  /* width: 70%; */
+}
+.missionContentContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+.training {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 24px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  line-height: 32px;
+  word-wrap: break-word;
+  margin-bottom: 8px;
+}
+.rhoncus {
+  color: #808080;
+  font-size: 20px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+  width: 90%;
+  margin-top: 0;
+}
+.imagesAlignment {
+  position: relative;
+  background-color: #fff5e7;
+  width: 419.64px;
+  height: 329.83px;
+  border-radius: 12px;
+}
+.imagesGrid {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.missionGrid {
+  margin-bottom: 11rem;
+
+  @media screen and (max-width: 1400px) {
+    margin-bottom: 4rem;
+  }
+}
+.missionleft {
+  position: absolute;
+  top: 20px;
+  left: -70px;
+}
+.missionupper {
+  position: absolute;
+  top: 50px;
+  left: 150px;
+}
+.missiondown {
+  position: absolute;
+  bottom: -180px;
+  left: 150px;
+}
+.ourVision {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 14rem;
+  margin-bottom: 6rem;
+}
+.visionContentContainer {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  padding-top: 67px;
+  padding-left: 100px;
+}
+.visionRightContainer {
+  display: flex;
+  flex-direction: column;
+  /* width: 75%; */
+}
+.imagesVisionAlignment {
+  position: relative;
+  background-color: #fff5e7;
+  width: 439.34px;
+  height: 490px;
+  border-radius: 12px;
+}
+.aboutusHome {
+  position: absolute;
+  top: 50px;
+  left: -100px;
+}
+.carouselMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+}
+.carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+}
+.carouselHeadeing {
+  color: black;
+  font-size: 20px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  word-wrap: break-word;
+  margin-bottom: 0;
+}
+.carouselSubHeading {
+  color: #808080;
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+.ContactUsimgBox {
+  width: 50%;
+}
+.signupBtn {
+  border: none;
+  background: linear-gradient(to left, #3881a1, #dea94b);
+  color: #fff;
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 1rem 2.2rem 1rem 2.2rem;
+}
+.signupBtn:hover {
+  border: none;
+  background: linear-gradient(to right, #3881a1, #dea94b);
+  color: #fff;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: 3s ease-in;
+}
+.carouselUnderMain {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 69px;
+}
+.workingMainContainer {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  height: 100%;
+  padding: 0 35px;
+}
+.workingContainer {
+  display: flex;
+  /* align-items: center; */
+  margin-bottom: 1rem;
+  width: 90%;
+}
+.workingRightSpacing {
+  margin-left: 1.5rem;
+}
+/* .footerupImagesGrid {
+  display: flex;
+  align-items: center;
+} */
+.footerUpperPart {
+  margin-bottom: 4rem;
+}
+.videoBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 80px;
+  /* box-shadow: 0 0 10px 0 rgba(128, 128, 128, 0.09); */
+}
+.videoBox video {
+  width: 90%;
+  height: 390px;
+  border-radius: 20px;
+}
+.playBtn {
+  position: absolute;
+  top: 35%;
+  left: 45%;
+  z-index: 99;
+}
+.imagesGridVision {
+  display: flex;
+  justify-content: center;
+}
+.mobileViewText {
+  display: none;
+}
+
+.inconsStyling {
+  padding-top: 22px;
+}
+
+.chooseUsDescription {
+  display: block;
+}
+.ChooseUsDescriptionMobile {
+  display: none;
+}
+
+.ContactUsImageBox {
+  width: 305px;
+  height: 283px;
+}
+.ContactProfileImgStyling {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+@media (max-width: 1440px) {
+  .footerUpImageOne {
+    width: 45%;
+    height: auto;
+  }
+  .footerUpImageTwo {
+    width: 45%;
+    height: auto;
+  }
+  .footerUpImageThree {
+    width: 91%;
+    height: auto;
+  }
+  .ChooseUsDescriptionMobile {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .ChooseUsDescriptionMobile {
+    display: block;
+  }
+  .chooseUsDescription {
+    display: none;
+  }
+  .footerupImagesGrid {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+  }
+  .jobsPara {
+    color: #636363;
+    font-size: 14px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    margin-bottom: 0%;
+    padding: 0 35px;
+  }
+  .carouselMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+  }
+  .mobileViewText {
+    display: block;
+  }
+  .ourVisionGrid {
+    display: none;
+  }
+  .visionContentContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+  }
+
+  .imagesGridVision {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .jobsHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    padding: 0 20px;
+    text-align: center;
+  }
+  .missionContentContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0rem;
+    padding: 50px 35px 0 10px;
+  }
+  .workingRightContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 30px;
+  }
+  .ourVision {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+  }
+  .missionGrid {
+    margin-bottom: 2.5rem;
+  }
+  .visionRightContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 35px;
+  }
+  .aboutusHome {
+    position: absolute;
+    top: 30px;
+    left: -90px;
+    width: 380px;
+    height: 330px;
+  }
+  .imagesVisionAlignment {
+    position: relative;
+    background-color: #fff5e7;
+    width: 400px;
+    height: 420px;
+    border-radius: 12px;
+  }
+}
+@media (max-width: 600px) {
+  .workingRightSpacing {
+    margin-left: 0.6rem;
+  }
+  .inconsStyling {
+    padding-top: 10px;
+  }
+  .workingMainContainer {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    height: 100%;
+    margin-left: 0;
+    /* padding-left: 0; */
+    padding: 0 0 0 10px;
+  }
+  .workingRightContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 0px;
+  }
+  .jobsHead {
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 24px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    line-height: 32px;
+    word-wrap: break-word;
+    margin: 0%;
+    text-align: center;
+    padding: 0 5px;
+  }
+  .jobsPara {
+    color: #636363;
+    font-size: 14px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    margin-bottom: 0%;
+    padding: 0 35px;
+    line-height: 1.3;
+    text-align: center;
+  }
+  .jobsHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    padding: 0 15px;
+  }
+  .imagesAlignment {
+    position: relative;
+    background-color: #fff5e7;
+    width: 264px;
+    height: 208px;
+    border-radius: 12px;
+  }
+  .missionleft {
+    width: 131px;
+    height: 269px;
+    position: absolute;
+    top: 20px;
+    left: -30px;
+  }
+  .missionupper {
+    width: 203px;
+    height: 117px;
+    position: absolute;
+    top: 50px;
+    left: 105px;
+  }
+  .missiondown {
+    width: 203px;
+    height: 160px;
+    position: absolute;
+    bottom: -125px;
+    left: 105px;
+  }
+  .training {
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    line-height: 24px;
+    word-wrap: break-word;
+    margin-bottom: 8px;
+  }
+  .rhoncus {
+    color: #808080;
+    font-size: 14px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    line-height: 17.64px;
+    word-wrap: break-word;
+    /* width: 65%; */
+    width: 100%;
+    margin-top: 0;
+  }
+  .missionGrid {
+    margin-bottom: 0;
+    padding: 0 20px;
+  }
+  .contentResponsive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+  }
+  .missionContentContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0rem;
+    padding: 0px 10px 0px 10px;
+  }
+  .visionGrid {
+    flex-direction: column-reverse;
+  }
+  .imagesVisionAlignment {
+    position: relative;
+    background-color: #fff5e7;
+    width: 277.81px;
+    height: 309px;
+    border-radius: 12px;
+    margin-top: 30px;
+  }
+  .aboutusHome {
+    position: absolute;
+    top: 30px;
+    left: -70px;
+    width: 276.81px;
+    height: 228px;
+  }
+  .ourVision {
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+  }
+  .videoBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .videoBox video {
+    height: 390px;
+    border-radius: 20px;
+  }
+  /* .footerUpImageOne {
+    width: 220px;
+    height: 145px;
+  }
+  .footerUpImageTwo {
+    width: 220px;
+    height: 145px;
+  }
+  .footerUpImageThree {
+    width: 450px;
+    height: 150px;
+  } */
+  /* .footerupImagesGrid {
+    justify-content: center;
+  } */
+  .footerupImagesGrid {
+    display: flex;
+    justify-content: center;
+    padding: 0 0px;
+    margin-top: 30px;
+  }
+  .footerUpperPart {
+    flex-direction: column-reverse;
+    margin-left: 4%;
+    margin-bottom: 2rem;
+  }
+  .imagesGridVision {
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+  }
+  .mobileAboutus {
+    overflow-x: hidden;
+  }
+  .carouselMain {
+    width: 90%;
+  }
+}
+@media (max-width: 490px) {
+  .imagesVisionAlignment {
+    position: relative;
+    background-color: #fff5e7;
+    width: 240.81px;
+    height: 272px;
+    border-radius: 12px;
+  }
+  .aboutusHome {
+    position: absolute;
+    top: 30px;
+    left: -70px;
+    width: 256.81px;
+    height: 208px;
+  }
+}
+@media (max-width: 445px) {
+  .imagesVisionAlignment {
+    position: relative;
+    background-color: #fff5e7;
+    width: 220.81px;
+    height: 252px;
+    border-radius: 12px;
+  }
+  .aboutusHome {
+    position: absolute;
+    top: 30px;
+    left: -70px;
+    width: 226.81px;
+    height: 185px;
+  }
+}
+
+@media (max-width: 430px) {
+  .imagesVisionAlignment {
+    position: relative;
+    background-color: #fff5e7;
+    width: 170.81px;
+    height: 200px;
+    border-radius: 12px;
+  }
+  .aboutusHome {
+    position: absolute;
+    top: 30px;
+    left: -70px;
+    width: 189.81px;
+    height: 148px;
+  }
+}
+
+@media (max-width: 400px) {
+  .carouselUnderMain {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 30px;
+  }
+  .footerupImagesGrid {
+    display: flex;
+    justify-content: center;
+    padding: 0 0px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 370px) {
+  .imagesVisionAlignment {
+    position: relative;
+    background-color: #fff5e7;
+    width: 170.81px;
+    height: 200px;
+    border-radius: 12px;
+    margin-left: 55px;
+  }
+  .imagesAlignment {
+    position: relative;
+    background-color: #fff5e7;
+    width: 221px;
+    height: 208px;
+    border-radius: 12px;
+  }
+  .missionleft {
+    width: 126px;
+    height: 269px;
+    position: absolute;
+    top: 20px;
+    left: -28px;
+  }
+  .missionupper {
+    width: 149px;
+    height: 118px;
+    position: absolute;
+    top: 50px;
+    left: 101px;
+  }
+  .missiondown {
+    width: 149px;
+    height: 160px;
+    position: absolute;
+    bottom: -125px;
+    left: 101px;
+  }
+}
+
+@media (max-width: 500px) {
+  .carouselMain {
+    max-width: 450px;
+  }
+  .ContactUsImageBox {
+    width: 100% !important;
+  }
+  .carousel {
+    width: 100% !important;
+  }
+}

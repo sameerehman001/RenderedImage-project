@@ -1,0 +1,269 @@
+.fullPageWrap {
+  position: relative;
+  background-color: #cccccc;
+  /* color: black; */
+  /* height: 100vh; */
+}
+
+.largeImage {
+  background-image: url("../../assets/images/mainImage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 80vh;
+  width: 100%;
+  position: relative;
+}
+
+.largeImage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black; /* Overlay color */
+  opacity: 0.3; /* Desired opacity */
+  z-index: 1;
+}
+
+/* Ensure any content inside .largeImage appears above the overlay */
+.largeImage * {
+  position: relative;
+  z-index: 2;
+}
+/* .allTextContainer {
+  margin-top: 40px;
+} */
+
+.LargeImageTextWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  padding-top: 40px;
+}
+
+.LargeTextContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 70px;
+}
+
+.mainText {
+  font-size: 70px;
+  text-align: left;
+  font-weight: bold;
+  color: white;
+}
+
+.middletext {
+  font-size: 63px;
+  text-align: right;
+  font-weight: bold;
+  color: white;
+}
+.reelButtonWrap {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 140px; */
+}
+.reelButtonText {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 40px;
+  cursor: pointer;
+  color: white;
+}
+
+.firstRowWrap {
+  display: flex;
+  width: 100%;
+}
+
+.firstLeft {
+  width: 55%;
+}
+.firstImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.firstRight {
+  width: 45%;
+  display: flex;
+  align-items: center;
+}
+.RightTextWrap {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+.rightTitleText {
+  font-size: 75px;
+  font-weight: 800;
+  color: white;
+}
+
+.rightSmallText {
+  font-size: 50px;
+  /* font-weight: 800; */
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.rightSmallText:hover {
+  color: #999;
+}
+.footerWrap {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerText {
+  font-size: 20px;
+  color: #aaa;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+  .rightTitleText {
+    font-size: 65px;
+    font-weight: 800;
+    color: white;
+  }
+
+  .rightSmallText {
+    font-size: 40px;
+    /* font-weight: 800; */
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .LargeTextContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 140px;
+  }
+
+  .mainText {
+    font-size: 60px;
+    text-align: left;
+    font-weight: bold;
+    color: white;
+  }
+
+  .middletext {
+    font-size: 53px;
+    text-align: right;
+    font-weight: bold;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .LargeTextContainer {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    /* gap: 40px; */
+  }
+  .rightTitleText {
+    font-size: 55px;
+    font-weight: 800;
+    color: white;
+  }
+
+  .rightSmallText {
+    font-size: 30px;
+    /* font-weight: 800; */
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .rightTitleText {
+    font-size: 45px;
+    font-weight: 800;
+    color: white;
+  }
+
+  .rightSmallText {
+    font-size: 20px;
+    /* font-weight: 800; */
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .mainText {
+    font-size: 50px;
+    text-align: left;
+    font-weight: bold;
+    color: white;
+  }
+
+  .middletext {
+    font-size: 43px;
+    text-align: right;
+    font-weight: bold;
+    color: white;
+  }
+}
+@media screen and (max-width: 600px) {
+  .rightTitleText {
+    font-size: 35px;
+    font-weight: 800;
+    color: white;
+  }
+
+  .rightSmallText {
+    font-size: 20px;
+    /* font-weight: 800; */
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .LargeTextContainer {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    /* gap: 40px; */
+  }
+}
+@media screen and (max-width: 470px) {
+  .LargeTextContainer {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 40px;
+  }
+  .rightTitleText {
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+  }
+
+  .rightSmallText {
+    font-size: 15px;
+    /* font-weight: 800; */
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}

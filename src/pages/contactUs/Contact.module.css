@@ -1,0 +1,23 @@
+.wrapContainer {
+  position: relative;
+  background-color: #cccccc;
+  height: 100vh;
+}
+.textContainer {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 27%;
+  margin-left: 30%;
+  max-width: 300px;
+  min-width: 200px;
+}
+.websiteName {
+  font-size: 18px;
+  font-family: verdana;
+  /* font-weight: bold; */
+}
+.marginZero {
+  margin: 0;
+}
