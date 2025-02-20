@@ -3,21 +3,36 @@
   border: 1px solid black;
   width: fit-content;
   border-radius: 12px;
+  cursor: pointer;
+  
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
 }
-.BlackButton :nth-child(1) {
+
+.BlackButton h4 {
   font-size: 18px;
   font-family: ftnk;
   margin-top: 17px;
   margin-bottom: 17px;
+  transition: color 0.3s ease; /* Smooth transition */
 }
+
+.BlackButton:hover {
+  background-color: black; /* Full black background on hover */
+}
+
+.BlackButton:hover h4 {
+  color: white; /* White text on hover */
+}
+
+/* Media queries for responsive text size */
 @media screen and (max-width: 800px) {
-  .BlackButton :nth-child(1) {
+  .BlackButton h4 {
     font-size: 15px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .BlackButton :nth-child(1) {
+  .BlackButton h4 {
     font-size: 12px;
   }
 }
