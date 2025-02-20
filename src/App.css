@@ -8,7 +8,9 @@
 } */
 
 .backgroundImage {
-  background-image: url("./assets/images/mainImage.png");
+  /* background-image: url("./assets/images/mainImage.png"); */
+  background-image: url("https://res.cloudinary.com/ddxbo66ik/image/upload/v1740053744/mainImage_dbpxpz.png");
+
   background-repeat: no-repeat;
   height: 50%;
 }
